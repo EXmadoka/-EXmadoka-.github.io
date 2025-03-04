@@ -1,0 +1,218 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>[object Object] | 欢迎来到EXMADOKA的博客</title><meta name="author" content="EX极地东风"><meta name="copyright" content="EX极地东风"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1. 明确学习目标和重点 理解单片机的基本概念：了解单片机的结构、功能以及与其他电子元件的配合。 掌握一种主流单片机：如51单片机或STM32。51单片机适合初学者，资料丰富且简单易懂；STM32功能强大，但学习曲线稍陡。 重点学习C语言编程：单片机编程主要使用C语言，掌握基本语法、数据结构和程序设计方法是关键。  2. 学习资源推荐 书籍： 《单片机原理及应用》（适合51单片机）。 《STM32">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[object Object]">
+<meta property="og:url" content="https://exmadoka.xyz/2025/03/04/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/index.html">
+<meta property="og:site_name" content="欢迎来到EXMADOKA的博客">
+<meta property="og:description" content="1. 明确学习目标和重点 理解单片机的基本概念：了解单片机的结构、功能以及与其他电子元件的配合。 掌握一种主流单片机：如51单片机或STM32。51单片机适合初学者，资料丰富且简单易懂；STM32功能强大，但学习曲线稍陡。 重点学习C语言编程：单片机编程主要使用C语言，掌握基本语法、数据结构和程序设计方法是关键。  2. 学习资源推荐 书籍： 《单片机原理及应用》（适合51单片机）。 《STM32">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://exmadoka.xyz/source/image/avatar.ico">
+<meta property="article:published_time" content="2025-03-04T01:27:56.547Z">
+<meta property="article:modified_time" content="2025-03-04T01:27:47.530Z">
+<meta property="article:author" content="EX极地东风">
+<meta property="article:tag" content="樋口圆香,EXMADOKA,技术博客,个人博客,全栈博客,C++博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://exmadoka.xyz/source/image/avatar.ico"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "[object Object]",
+  "url": "https://exmadoka.xyz/2025/03/04/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/",
+  "image": "https://exmadoka.xyz/source/image/avatar.ico",
+  "datePublished": "2025-03-04T01:27:56.547Z",
+  "dateModified": "2025-03-04T01:27:47.530Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "EX极地东风",
+      "url": "https://exmadoka.xyz/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://exmadoka.xyz/2025/03/04/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '[object Object]',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">欢迎来到EXMADOKA的博客</span></a><a class="nav-page-title" href="/"><span class="site-name">[object Object]</span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">[object Object]</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-03-04T01:27:56.547Z" title="发表于 2025-03-04 09:27:56">2025-03-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-03-04T01:27:47.530Z" title="更新于 2025-03-04 09:27:47">2025-03-04</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h3 id="1-明确学习目标和重点"><a href="#1-明确学习目标和重点" class="headerlink" title="1. 明确学习目标和重点"></a>1. <strong>明确学习目标和重点</strong></h3><ul>
+<li><strong>理解单片机的基本概念</strong>：了解单片机的结构、功能以及与其他电子元件的配合。</li>
+<li><strong>掌握一种主流单片机</strong>：如51单片机或STM32。51单片机适合初学者，资料丰富且简单易懂；STM32功能强大，但学习曲线稍陡。</li>
+<li><strong>重点学习C语言编程</strong>：单片机编程主要使用C语言，掌握基本语法、数据结构和程序设计方法是关键。</li>
+</ul>
+<h3 id="2-学习资源推荐"><a href="#2-学习资源推荐" class="headerlink" title="2. 学习资源推荐"></a>2. <strong>学习资源推荐</strong></h3><ul>
+<li><strong>书籍</strong>：<ul>
+<li>《单片机原理及应用》（适合51单片机）。</li>
+<li>《STM32开发指南》（适合STM32）。</li>
+</ul>
+</li>
+<li><strong>在线课程</strong>：<ul>
+<li>B站、网易云课堂等平台上有许多免费的单片机入门课程，适合零基础学习。</li>
+</ul>
+</li>
+<li><strong>实验开发板</strong>：购买一块适合初学者的单片机开发板（如51开发板或STM32基础开发板），通过动手实践加深理解。</li>
+</ul>
+<h3 id="3-学习计划"><a href="#3-学习计划" class="headerlink" title="3. 学习计划"></a>3. <strong>学习计划</strong></h3><ul>
+<li><strong>第1周：基础理论学习</strong><ul>
+<li>学习单片机的基本概念、结构和工作原理。</li>
+<li>学习C语言基础语法（变量、数据类型、运算符、控制语句等）。</li>
+</ul>
+</li>
+<li><strong>第2-3周：硬件与软件结合</strong><ul>
+<li>学习如何使用开发环境（如Keil C、ST-Link等）。</li>
+<li>通过开发板完成简单的实验，如点亮LED、读取按键输入等。</li>
+</ul>
+</li>
+<li><strong>第4周：进阶学习</strong><ul>
+<li>学习中断、定时器、串口通信等常用功能。</li>
+<li>尝试编写简单的程序，解决实际问题。</li>
+</ul>
+</li>
+<li><strong>最后两周：实战练习</strong><ul>
+<li>做一些往年的蓝桥杯单片机组真题，熟悉比赛题型和难度。</li>
+<li>总结易错点和解题思路，提高编程能力和应试技巧。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-学习方法"><a href="#4-学习方法" class="headerlink" title="4. 学习方法"></a>4. <strong>学习方法</strong></h3><ul>
+<li><strong>理论与实践结合</strong>：不要只看书或看视频，一定要动手实践，通过实践加深理解。</li>
+<li><strong>多做实验</strong>：利用开发板完成各种实验，从简单到复杂逐步提升难度。</li>
+<li><strong>多写代码</strong>：编程能力需要大量练习，多写代码、多调试，积累经验。</li>
+<li><strong>总结经验</strong>：每次实验或练习后，总结遇到的问题和解决方法，避免重复犯错。</li>
+</ul>
+<h3 id="5-其他建议"><a href="#5-其他建议" class="headerlink" title="5. 其他建议"></a>5. <strong>其他建议</strong></h3><ul>
+<li><strong>加入学习小组或社区</strong>：与其他学习者交流经验，互相帮助。</li>
+<li><strong>保持积极心态</strong>：学习过程中可能会遇到困难，不要气馁，坚持下去。</li>
+<li><strong>合理安排时间</strong>：每天保持一定的学习时间，避免临时抱佛脚。</li>
+</ul>
+<h3 id="6-比赛技巧"><a href="#6-比赛技巧" class="headerlink" title="6. 比赛技巧"></a>6. <strong>比赛技巧</strong></h3><ul>
+<li><strong>熟悉比赛规则</strong>：提前了解比赛的题型、时间安排和评分标准。</li>
+<li><strong>合理分配时间</strong>：比赛时先做简单的题目，确保基础分，再挑战难题。</li>
+<li><strong>注意代码规范</strong>：比赛时代码要清晰、注释详细，方便评委理解。</li>
+</ul>
+<p>虽然时间紧张，但只要你全力以赴，相信一定能取得进步。祝你比赛顺利！</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://exmadoka.xyz">EX极地东风</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://exmadoka.xyz/2025/03/04/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/">https://exmadoka.xyz/2025/03/04/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://exmadoka.xyz" target="_blank">欢迎来到EXMADOKA的博客</a>！</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/source/image/avatar.ico" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/03/03/markdown%E8%AF%AD%E6%B3%95/" title="markdown语法"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">markdown语法</div></div><div class="info-2"><div class="info-item-1">#标题##二级标题###三级标题 这是一段文字，在行尾加两个空格换行这是下一行 斜体   斜体加粗  加粗_斜体加粗_    标记列表     就像这样 这样   或者这样 这样 这样bilibilibilibili    这是一个引用  这是嵌套引用   这是行内代码实例 12def hello()	print(&quot;hello,Markdown!，这个部分是代码块&quot;)     直接插入表格      或者用| —来画表格               使用三个以上的* - _来画分割线   [] 任务1 []任务2 [✔]任务3  1234graph TD    A[开始] --&gt; B&#123;条件&#125;    B -- 是 --&gt; C[执行操作]    B -- 否 --&gt; D[结束] sequenceDiagram     participant A as 用户     participant B as 系统     A-&gt;&gt;B: 请求数据     B--&gt;&gt;A: 返回数据  </div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/source/image/avatar.ico" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">EX极地东风</div><div class="author-info-description">能对明明没胜算的赌注感兴趣…您还真是位头脑发热的人物呢。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/EXmadoka" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/2406207362@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/88256759?spm_id_from=333.788.0.0" target="_blank" title="Bilibili"><i class="fab fa-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%98%8E%E7%A1%AE%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87%E5%92%8C%E9%87%8D%E7%82%B9"><span class="toc-number">1.</span> <span class="toc-text">1. 明确学习目标和重点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90"><span class="toc-number">2.</span> <span class="toc-text">2. 学习资源推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92"><span class="toc-number">3.</span> <span class="toc-text">3. 学习计划</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">4. 学习方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%85%B6%E4%BB%96%E5%BB%BA%E8%AE%AE"><span class="toc-number">5.</span> <span class="toc-text">5. 其他建议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%AF%94%E8%B5%9B%E6%8A%80%E5%B7%A7"><span class="toc-number">6.</span> <span class="toc-text">6. 比赛技巧</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/04/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" title="[object Object]">[object Object]</a><time datetime="2025-03-04T01:27:56.547Z" title="发表于 2025-03-04 09:27:56">2025-03-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/03/markdown%E8%AF%AD%E6%B3%95/" title="markdown语法">markdown语法</a><time datetime="2025-03-03T03:35:26.000Z" title="发表于 2025-03-03 11:35:26">2025-03-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/02/28/hello-world/" title="Hello World">Hello World</a><time datetime="2025-02-28T11:45:02.893Z" title="发表于 2025-02-28 19:45:02">2025-02-28</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By EX极地东风</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.4</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
